@@ -5,56 +5,7 @@ Direct3D:
     Renderer: NVIDIA Quadro M4000 (ID=0x13f1)
     Vendor:   NVIDIA
     VRAM:     3072 MB
-    Driver:   21.21.13.7735
-Begin MonoManager ReloadAssembly
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\SocketIOLab\build\testBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.017 seconds
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\Mono.Security.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.957885 ms
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 8ebc -> priority: 1 
-  Thread -> id: 8084 -> priority: 1 
-  Thread -> id: 82e4 -> priority: 1 
-  Thread -> id: 6484 -> priority: 1 
-We are connected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-We are connected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player spawned
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player spawned
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Initialize engine version: 5.6.0f3 (497a0f351392)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro M4000 (ID=0x13f1)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   21.21.13.7735
+    Driver:   22.21.13.8205
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\SocketIOLab\build\testBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -74,12 +25,12 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.916721 ms
+UnloadTime: 0.873133 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 8e48 -> priority: 1 
-  Thread -> id: 2c34 -> priority: 1 
-  Thread -> id: 8cf8 -> priority: 1 
-  Thread -> id: 1830 -> priority: 1 
+  Thread -> id: 6e918 -> priority: 1 
+  Thread -> id: 6eda4 -> priority: 1 
+  Thread -> id: 6f2a0 -> priority: 1 
+  Thread -> id: 6f134 -> priority: 1 
 We are connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -88,19 +39,11 @@ We are connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player spawned
+Player spawned{"id":"BkTP-EiPz"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player spawned
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player spawned
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player spawned
+count 1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
