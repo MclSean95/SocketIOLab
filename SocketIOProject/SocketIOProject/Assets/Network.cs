@@ -15,6 +15,7 @@ public class Network : MonoBehaviour {
         socket.On("open", OnConnected);
         socket.On("spawn player", OnSpawned);
         socket.On("disconnected", OnDisconnected);
+        socket.On("move", OnMove);
         players = new Dictionary<string, GameObject>();
 
 
@@ -33,12 +34,31 @@ public class Network : MonoBehaviour {
     }
 
     void OnDisconnected(SocketIOEvent e) {
-        Debug.Log("PLayer disconnected" + e.data);
+        Debug.Log("Player disconnected" + e.data);
 
         var id = e.data["id"].ToString();
         var player = players[id];
 
         Destroy(player);
         players.Remove(id);
+    }
+
+    void OnMove(SocketIOEvent f)
+    {
+        Debug.Log("Networked player is moving" + f.data);
+        var id = f.data["id"].ToString();
+        var player = players[id];
+
+        var pos = new Vector3(GetFloatFromJSON(f.data, "x"), 0, GetFloatFromJSON(f.data, "y"));
+
+        var netMove = player.GetComponent<CharacterMovement>();
+
+        netMove.NetMove(pos);
+
+    }
+
+    float GetFloatFromJSON(JSONObject data, string key)
+    {
+        return float.Parse(data[key].ToString().Replace("\"", ""));
     }
 }
